@@ -82,6 +82,9 @@ io.on('connection', (socket) => {
   
 });  
 
+app.get('/welcome', (req, res) => {
+  res.send('/welcome.html');
+});
 
 
  
