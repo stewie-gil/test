@@ -82,7 +82,7 @@ io.on('connection', (socket) => {
   
 });  
 
-app.get('/', (req, res) => {
+app.get('/welcome', (req, res) => {
   res.sendFile(__dirname + '/welcome.html');
 });
 
