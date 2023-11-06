@@ -82,9 +82,6 @@ io.on('connection', (socket) => {
   
 });  
 
-app.get('/welcome', (req, res) => {
-  res.sendFile(__dirname + '/welcome.html');
-});
 
 
  
